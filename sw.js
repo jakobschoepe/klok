@@ -1,6 +1,6 @@
 // Optional service worker for Klok — place next to index.html on an http(s) host.
 // Stale-while-revalidate: serves from cache instantly, refreshes in the background.
-const CACHE = 'klok-v2';
+const CACHE = 'klok-v1.0';
 const CORE = ['./', './index.html'];
 
 self.addEventListener('install', e => {
